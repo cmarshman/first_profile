@@ -1,56 +1,108 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;
-    background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');
-  }
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+  background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');
+}
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    Position: fixed;
-    right: 0;
-    top: 0
-  }
-  
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  Position: absolute;
+  right: 0;
+  top: 0
+}
+
+.squezer {
+width: 960px;
+margin: 0 auto;
+position: relative;
+}  
+
 li {
-    float: right;
-  }
-  
+  float: left;
+}
+
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px 0px 16px;
-    text-decoration: none;
-  }
-  
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px 0px 16px;
+  text-decoration: none;
+}
+
 li a:hover {
-    background-color: #111;
-    padding: 20px
-  }  
-  
+  background-color: #111;
+  padding: 20px;
+}  
+
 header {
-    background: #333;
-  }
-  
+  background: #333;
+}
+
 h1 {
-    padding: 20px 0;
-    margin: 0px 0px 0px 100px;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #333;
-    text-align: center;
-    width: 25%;
-    background: #efeee7;
-  }
+  padding: 20px 0;
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  width: 25%;
+  background: #efeee7;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+#about_me {
+  margin-top: -20px
+}
+
+.container {
+  width: 960px;
+  margin: 50px auto 50px auto;
+  box-sizing: border-box;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+    background-color: #333;
+    padding: 50px;
+    color: #efeee7;
+    margin-bottom: 150px;
+}
+
+.images p {
+  background-color: #efeee7;
+  position: absolute;
+  top: 85%;
+  right: 0;
+  transform: translate(0, -75%);
+  text-align: right;
+  color: #333;
+  padding: 10px;
+  width: 280px;
+  margin-left: 20px 
+}
+
+.images {
+  position: relative;
+  display: inline-block;
+  margin: 5px 10px 30px 10px;
+}
 
 .footer {
     position: fixed;
@@ -62,4 +114,5 @@ h1 {
     text-align: center;
     font-size: 12px;
     border-top: 4px #efeee7 solid;
+    height: 50px
 }
